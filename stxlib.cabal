@@ -11,7 +11,8 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  Init
+    exposed-modules:  StxLib
+    other:            Init
     build-depends:    base
     hs-source-dirs:   src
     default-language: Haskell2010
